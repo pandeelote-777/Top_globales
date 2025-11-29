@@ -52,5 +52,10 @@ namespace GermanXChino
 			f.Show();
 			this.Hide();			
 		}
+		
+		void SALIRToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }
