@@ -36,12 +36,63 @@ namespace GermanXChino
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+			this.registroDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.calcularPromediosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.ordenadorDeNumerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.menuStrip1.SuspendLayout();
+			this.SuspendLayout();
+			// 
+			// menuStrip1
+			// 
+			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+									this.registroDeAlumnosToolStripMenuItem,
+									this.calcularPromediosToolStripMenuItem,
+									this.ordenadorDeNumerosToolStripMenuItem});
+			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip1.Name = "menuStrip1";
+			this.menuStrip1.Size = new System.Drawing.Size(616, 24);
+			this.menuStrip1.TabIndex = 0;
+			this.menuStrip1.Text = "menuStrip1";
+			// 
+			// registroDeAlumnosToolStripMenuItem
+			// 
+			this.registroDeAlumnosToolStripMenuItem.Name = "registroDeAlumnosToolStripMenuItem";
+			this.registroDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
+			this.registroDeAlumnosToolStripMenuItem.Text = "C) Registro de alumnos";
+
+			// 
+			// calcularPromediosToolStripMenuItem
+			// 
+			this.calcularPromediosToolStripMenuItem.Name = "calcularPromediosToolStripMenuItem";
+			this.calcularPromediosToolStripMenuItem.Size = new System.Drawing.Size(137, 20);
+			this.calcularPromediosToolStripMenuItem.Text = "D) Calcular promedios";
+			this.calcularPromediosToolStripMenuItem.Click += new System.EventHandler(this.CalcularPromediosToolStripMenuItemClick);
+			// 
+			// ordenadorDeNumerosToolStripMenuItem
+			// 
+			this.ordenadorDeNumerosToolStripMenuItem.Name = "ordenadorDeNumerosToolStripMenuItem";
+			this.ordenadorDeNumerosToolStripMenuItem.Size = new System.Drawing.Size(155, 20);
+			this.ordenadorDeNumerosToolStripMenuItem.Text = "E) Ordenador de numeros";
+			this.ordenadorDeNumerosToolStripMenuItem.Click += new System.EventHandler(this.OrdenadorDeNumerosToolStripMenuItemClick);
 			// 
 			// MainForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "GermanXChino";
+			this.ClientSize = new System.Drawing.Size(616, 51);
+			this.Controls.Add(this.menuStrip1);
+			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MainForm";
+			this.Text = "GermanXChino";
+			this.menuStrip1.ResumeLayout(false);
+			this.menuStrip1.PerformLayout();
+			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem ordenadorDeNumerosToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem calcularPromediosToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem registroDeAlumnosToolStripMenuItem;
+		private System.Windows.Forms.MenuStrip menuStrip1;
 	}
 }
