@@ -62,6 +62,7 @@ namespace GermanXChino
 			this.registroDeAlumnosToolStripMenuItem.Name = "registroDeAlumnosToolStripMenuItem";
 			this.registroDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
 			this.registroDeAlumnosToolStripMenuItem.Text = "C) Registro de alumnos";
+			this.registroDeAlumnosToolStripMenuItem.Click += new System.EventHandler(this.RegistroDeAlumnosToolStripMenuItemClick);
 			// 
 			// calcularPromediosToolStripMenuItem
 			// 
