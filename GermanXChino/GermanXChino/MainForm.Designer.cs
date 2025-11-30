@@ -36,12 +36,16 @@ namespace GermanXChino
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.SuspendLayout();
 			// 
 			// MainForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "GermanXChino";
+			this.ClientSize = new System.Drawing.Size(330, 253);
 			this.Name = "MainForm";
+			this.Text = "GermanXChino";
+			this.ResumeLayout(false);
 		}
 	}
 }
