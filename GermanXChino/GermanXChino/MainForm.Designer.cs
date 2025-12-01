@@ -36,6 +36,16 @@ namespace GermanXChino
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.SuspendLayout();
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(330, 253);
+			this.Name = "MainForm";
+			this.Text = "GermanXChino";
+			this.ResumeLayout(false);
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.registroDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.calcularPromediosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();

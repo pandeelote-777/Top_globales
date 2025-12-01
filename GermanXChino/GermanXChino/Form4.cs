@@ -17,6 +17,8 @@ namespace GermanXChino
 	/// </summary>
 	public partial class Form4 : Form
 	{
+		public int [] nums = new int [10];
+		private readonly Random rd = new Random();
 		public Form4()
 		{
 			//
@@ -27,6 +29,34 @@ namespace GermanXChino
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		void BtnGenerarClick(object sender, EventArgs e)
+		{
+			for (int i=0; i<10; i++){
+				nums[i]=rd.Next(100);
+			}
+			string nd = "";
+			for (int i=0; i<10; i++){
+				nd += nums[i];
+				if ( i<9 ){
+					nd += "  ";
+				}
+			}
+			lblNumG.Text=nd;
+			btnOrdenar.Visible=true;
+		}
+		
+		void BtnOrdenarClick(object sender, EventArgs e)
+		{
+			Array.Sort(nums);
+			string no = "";
+			for (int i=0; i<10; i++){
+				no += nums[i];
+				if ( i<9 ){
+					no += "  ";
+				}
+			}
+			lblNumO.Text=no;
 		}
 	}
 }
