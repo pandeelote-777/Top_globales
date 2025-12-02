@@ -210,6 +210,7 @@ namespace GermanXChino
 			this.txtCiudad.Name = "txtCiudad";
 			this.txtCiudad.Size = new System.Drawing.Size(119, 22);
 			this.txtCiudad.TabIndex = 16;
+			this.txtCiudad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// Colonia
 			// 
@@ -225,6 +226,7 @@ namespace GermanXChino
 			this.txtColonia.Name = "txtColonia";
 			this.txtColonia.Size = new System.Drawing.Size(128, 22);
 			this.txtColonia.TabIndex = 18;
+			this.txtColonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// label10
 			// 
@@ -240,6 +242,7 @@ namespace GermanXChino
 			this.txtCalle.Name = "txtCalle";
 			this.txtCalle.Size = new System.Drawing.Size(100, 22);
 			this.txtCalle.TabIndex = 20;
+			this.txtCalle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// label11
 			// 
@@ -251,10 +254,11 @@ namespace GermanXChino
 			// 
 			// txtNumeroC
 			// 
-			this.txtNumeroC.Location = new System.Drawing.Point(663, 131);
+			this.txtNumeroC.Location = new System.Drawing.Point(667, 131);
 			this.txtNumeroC.Name = "txtNumeroC";
 			this.txtNumeroC.Size = new System.Drawing.Size(90, 22);
 			this.txtNumeroC.TabIndex = 22;
+			this.txtNumeroC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// label12
 			// 
@@ -318,6 +322,7 @@ namespace GermanXChino
 			this.txtNumeroDecon.Name = "txtNumeroDecon";
 			this.txtNumeroDecon.Size = new System.Drawing.Size(141, 22);
 			this.txtNumeroDecon.TabIndex = 28;
+			this.txtNumeroDecon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// label15
 			// 
@@ -352,6 +357,7 @@ namespace GermanXChino
 			this.btnRegrsar.TabIndex = 31;
 			this.btnRegrsar.Text = "Regresar";
 			this.btnRegrsar.UseVisualStyleBackColor = true;
+			this.btnRegrsar.Click += new System.EventHandler(this.BtnRegrsarClick);
 			// 
 			// btnLimpiarTodo
 			// 
@@ -361,6 +367,7 @@ namespace GermanXChino
 			this.btnLimpiarTodo.TabIndex = 32;
 			this.btnLimpiarTodo.Text = "Limpiar Todo";
 			this.btnLimpiarTodo.UseVisualStyleBackColor = true;
+			this.btnLimpiarTodo.Click += new System.EventHandler(this.BtnLimpiarTodoClick);
 			// 
 			// btnRegistar
 			// 
@@ -370,6 +377,7 @@ namespace GermanXChino
 			this.btnRegistar.TabIndex = 33;
 			this.btnRegistar.Text = "Registrar";
 			this.btnRegistar.UseVisualStyleBackColor = true;
+			this.btnRegistar.Click += new System.EventHandler(this.BtnRegistarClick);
 			// 
 			// Form2
 			// 
@@ -411,7 +419,7 @@ namespace GermanXChino
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "Form2";
 			this.Text = "Registro de alumnos";
 			this.ResumeLayout(false);
