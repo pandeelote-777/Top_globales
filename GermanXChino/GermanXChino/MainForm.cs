@@ -29,31 +29,20 @@ namespace GermanXChino
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+
 		
-		void BtnRAlumnosClick(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e)
 		{
-			Form2 f= new Form2();
-			f.Show();
-			this.Hide();			
+			Application.Exit();
 		}
 		
-		void BtnCalificasionesClick(object sender, EventArgs e)
+		void BtnEntrarClick(object sender, EventArgs e)
 		{
-			Form3 f= new Form3();
-			f.Show();
-			this.Hide();
-		}
-		
-		void BtnNumerosClick(object sender, EventArgs e)
-		{
-			Form4 f= new Form4();
-			f.Show();
-			this.Hide();
-		}
-		
-		void BtnSalirClick(object sender, EventArgs e)
-		{
-			this.Close();
+			if (txtUsario.Text=="Admin" && txtContra.Text=="123") {
+				Form1 f=new Form1();
+				f.Show();
+				Hide();
+			}	
 		}
 	}
 }

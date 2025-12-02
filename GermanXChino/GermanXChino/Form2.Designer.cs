@@ -95,7 +95,7 @@ namespace GermanXChino
 			// 
 			this.txtNombre.Location = new System.Drawing.Point(152, 55);
 			this.txtNombre.Name = "txtNombre";
-			this.txtNombre.Size = new System.Drawing.Size(138, 22);
+			this.txtNombre.Size = new System.Drawing.Size(138, 26);
 			this.txtNombre.TabIndex = 2;
 			// 
 			// label3
@@ -110,7 +110,7 @@ namespace GermanXChino
 			// 
 			this.txtApellidoP.Location = new System.Drawing.Point(411, 53);
 			this.txtApellidoP.Name = "txtApellidoP";
-			this.txtApellidoP.Size = new System.Drawing.Size(113, 22);
+			this.txtApellidoP.Size = new System.Drawing.Size(113, 26);
 			this.txtApellidoP.TabIndex = 4;
 			// 
 			// label4
@@ -125,7 +125,7 @@ namespace GermanXChino
 			// 
 			this.txtApellidoM.Location = new System.Drawing.Point(645, 53);
 			this.txtApellidoM.Name = "txtApellidoM";
-			this.txtApellidoM.Size = new System.Drawing.Size(112, 22);
+			this.txtApellidoM.Size = new System.Drawing.Size(112, 26);
 			this.txtApellidoM.TabIndex = 6;
 			// 
 			// label5
@@ -140,7 +140,7 @@ namespace GermanXChino
 			// 
 			this.txtFechanac.Location = new System.Drawing.Point(152, 89);
 			this.txtFechanac.Name = "txtFechanac";
-			this.txtFechanac.Size = new System.Drawing.Size(138, 22);
+			this.txtFechanac.Size = new System.Drawing.Size(138, 26);
 			this.txtFechanac.TabIndex = 8;
 			this.txtFechanac.Text = "dd/mm/yyyy";
 			this.txtFechanac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -161,7 +161,7 @@ namespace GermanXChino
 									"F"});
 			this.cboSexo.Location = new System.Drawing.Point(347, 89);
 			this.cboSexo.Name = "cboSexo";
-			this.cboSexo.Size = new System.Drawing.Size(50, 24);
+			this.cboSexo.Size = new System.Drawing.Size(50, 28);
 			this.cboSexo.TabIndex = 10;
 			// 
 			// label7
@@ -176,7 +176,7 @@ namespace GermanXChino
 			// 
 			this.txtCurp.Location = new System.Drawing.Point(467, 91);
 			this.txtCurp.Name = "txtCurp";
-			this.txtCurp.Size = new System.Drawing.Size(161, 22);
+			this.txtCurp.Size = new System.Drawing.Size(161, 26);
 			this.txtCurp.TabIndex = 12;
 			this.txtCurp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -192,7 +192,7 @@ namespace GermanXChino
 			// 
 			this.txtEdad.Location = new System.Drawing.Point(682, 90);
 			this.txtEdad.Name = "txtEdad";
-			this.txtEdad.Size = new System.Drawing.Size(64, 22);
+			this.txtEdad.Size = new System.Drawing.Size(64, 26);
 			this.txtEdad.TabIndex = 14;
 			this.txtEdad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -208,7 +208,7 @@ namespace GermanXChino
 			// 
 			this.txtCiudad.Location = new System.Drawing.Point(77, 132);
 			this.txtCiudad.Name = "txtCiudad";
-			this.txtCiudad.Size = new System.Drawing.Size(119, 22);
+			this.txtCiudad.Size = new System.Drawing.Size(119, 26);
 			this.txtCiudad.TabIndex = 16;
 			this.txtCiudad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -224,7 +224,7 @@ namespace GermanXChino
 			// 
 			this.txtColonia.Location = new System.Drawing.Point(264, 132);
 			this.txtColonia.Name = "txtColonia";
-			this.txtColonia.Size = new System.Drawing.Size(128, 22);
+			this.txtColonia.Size = new System.Drawing.Size(128, 26);
 			this.txtColonia.TabIndex = 18;
 			this.txtColonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -240,7 +240,7 @@ namespace GermanXChino
 			// 
 			this.txtCalle.Location = new System.Drawing.Point(441, 131);
 			this.txtCalle.Name = "txtCalle";
-			this.txtCalle.Size = new System.Drawing.Size(100, 22);
+			this.txtCalle.Size = new System.Drawing.Size(100, 26);
 			this.txtCalle.TabIndex = 20;
 			this.txtCalle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -256,7 +256,7 @@ namespace GermanXChino
 			// 
 			this.txtNumeroC.Location = new System.Drawing.Point(667, 131);
 			this.txtNumeroC.Name = "txtNumeroC";
-			this.txtNumeroC.Size = new System.Drawing.Size(90, 22);
+			this.txtNumeroC.Size = new System.Drawing.Size(90, 26);
 			this.txtNumeroC.TabIndex = 22;
 			this.txtNumeroC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -280,7 +280,7 @@ namespace GermanXChino
 									"6to"});
 			this.cboGrado.Location = new System.Drawing.Point(57, 169);
 			this.cboGrado.Name = "cboGrado";
-			this.cboGrado.Size = new System.Drawing.Size(41, 24);
+			this.cboGrado.Size = new System.Drawing.Size(41, 28);
 			this.cboGrado.TabIndex = 24;
 			// 
 			// label13
@@ -305,7 +305,7 @@ namespace GermanXChino
 									"Ofimatico"});
 			this.cboEspeci.Location = new System.Drawing.Point(211, 171);
 			this.cboEspeci.Name = "cboEspeci";
-			this.cboEspeci.Size = new System.Drawing.Size(121, 24);
+			this.cboEspeci.Size = new System.Drawing.Size(121, 28);
 			this.cboEspeci.TabIndex = 26;
 			// 
 			// label14
@@ -320,7 +320,7 @@ namespace GermanXChino
 			// 
 			this.txtNumeroDecon.Location = new System.Drawing.Point(459, 172);
 			this.txtNumeroDecon.Name = "txtNumeroDecon";
-			this.txtNumeroDecon.Size = new System.Drawing.Size(141, 22);
+			this.txtNumeroDecon.Size = new System.Drawing.Size(141, 26);
 			this.txtNumeroDecon.TabIndex = 28;
 			this.txtNumeroDecon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -346,7 +346,7 @@ namespace GermanXChino
 									"O+"});
 			this.cboSangre.Location = new System.Drawing.Point(709, 171);
 			this.cboSangre.Name = "cboSangre";
-			this.cboSangre.Size = new System.Drawing.Size(57, 24);
+			this.cboSangre.Size = new System.Drawing.Size(57, 28);
 			this.cboSangre.TabIndex = 30;
 			// 
 			// btnRegrsar
@@ -381,8 +381,9 @@ namespace GermanXChino
 			// 
 			// Form2
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.ClientSize = new System.Drawing.Size(778, 264);
 			this.Controls.Add(this.btnRegistar);
 			this.Controls.Add(this.btnLimpiarTodo);

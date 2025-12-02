@@ -66,7 +66,7 @@ namespace GermanXChino
 		
 		void BtnRegresarClick(object sender, EventArgs e)
 		{
-			MainForm m = new MainForm();
+			Form1 m = new Form1();
 			m.Hide();
 			m.Show();
 			Close();
