@@ -32,6 +32,7 @@ namespace GermanXChino
 		}
 		void BtnGenerarClick(object sender, EventArgs e)
 		{
+			if(lblNumG.Text==""){
 			for (int i=0; i<10; i++){
 				nums[i]=rd.Next(100);
 			}
@@ -44,10 +45,13 @@ namespace GermanXChino
 			}
 			lblNumG.Text=nd;
 			btnOrdenar.Visible=true;
+			btnLimpiar.Visible=true;
+			}
 		}
 		
 		void BtnOrdenarClick(object sender, EventArgs e)
 		{
+			if(lblNumO.Text==""){
 			Array.Sort(nums);
 			string no = "";
 			for (int i=0; i<10; i++){
@@ -57,6 +61,23 @@ namespace GermanXChino
 				}
 			}
 			lblNumO.Text=no;
+			}
+		}
+		
+		void BtnRegresarClick(object sender, EventArgs e)
+		{
+			MainForm m = new MainForm();
+			m.Hide();
+			m.Show();
+			Close();
+		}
+		
+		void BtnLimpiarClick(object sender, EventArgs e)
+		{
+			lblNumG.Text="";
+			lblNumO.Text="";
+			btnOrdenar.Visible=false;
+			btnLimpiar.Visible=false;
 		}
 	}
 }

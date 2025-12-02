@@ -30,30 +30,28 @@ namespace GermanXChino
 			//
 		}
 		
-		void RegistroDeAlumnosToolStripMenuItemClick(object sender, EventArgs e)
+		void BtnRAlumnosClick(object sender, EventArgs e)
 		{
 			Form2 f= new Form2();
 			f.Show();
-			this.Hide();
+			this.Hide();			
 		}
 		
-		
-		void CalcularPromediosToolStripMenuItemClick(object sender, EventArgs e)
+		void BtnCalificasionesClick(object sender, EventArgs e)
 		{
 			Form3 f= new Form3();
 			f.Show();
 			this.Hide();
 		}
 		
-		
-		void OrdenadorDeNumerosToolStripMenuItemClick(object sender, EventArgs e)
+		void BtnNumerosClick(object sender, EventArgs e)
 		{
 			Form4 f= new Form4();
 			f.Show();
-			this.Hide();			
+			this.Hide();
 		}
 		
-		void SALIRToolStripMenuItemClick(object sender, EventArgs e)
+		void BtnSalirClick(object sender, EventArgs e)
 		{
 			this.Close();
 		}
